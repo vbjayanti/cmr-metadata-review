@@ -10,7 +10,7 @@ gem 'pg', '~> 0.17.1', group: [:test, :development, :production]
 
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0', '>= 5.0.6'
+gem 'sass-rails', '~> 5.1', '>= 5.1.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -19,7 +19,7 @@ gem 'coffee-rails', '~> 4.2.2'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '>= 4.3.4'
+gem 'jquery-rails', '>= 4.4.0'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -40,7 +40,7 @@ gem 'httparty', '~> 0.14.0'
 
 
 group :test do
-  gem 'minitest-spec-rails', '>= 5.4.0'
+  gem 'minitest-spec-rails', '>= 6.0.2'
   gem 'webmock'
 end
 
@@ -56,7 +56,7 @@ gem 'simplecov', '>= 0.12.0', :require => false, :group => :test
 #using puma server instead of webBrick
 gem 'puma', '~> 3.12.6'
 #base authentication gem
-gem 'devise', '~> 4.7.1'
+gem 'devise', '~> 4.7.2'
 #setting user permissions for pages
 gem 'cancan', '~> 1.6.10'
 
