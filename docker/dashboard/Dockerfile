@@ -1,7 +1,7 @@
 ####################################
 # Install Centos 7                 #
 ####################################
-FROM centos:7
+FROM centos:latest
 RUN yum install -y git-core zlib zlib-devel gcc-c++ \
                    patch readline readline-devel libyaml-devel libffi-devel \
                    openssl-devel make bzip2 autoconf automake libtool bison \
